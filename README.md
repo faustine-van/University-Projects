@@ -23,13 +23,14 @@ Each folder inside this repository represents a different Java project or concep
 
 1. Navigate to the project folder:
    `cd java-projects`
-2. Compile the Java program:
-    `javac Main.java`
-3. Run the program:
-    `java Main`
+2. Compile and Run the program:
+    ```bash
+    javac Main.java
+    java Main
 ✅ Make sure you're in the correct directory and have Java installed (`java --version`).
 ---
 ### 🐘 How to Run the PostgresConnect (JDBC) Program
+(For more info check text file `postgresqljava`)
 If you’re using a Java program that connects to a PostgreSQL database using JDBC:
 
 1. Ensure you have the PostgreSQL JDBC driver file (e.g., `postgresql-42.6.0.jar`) in your project folder or system path.
@@ -44,7 +45,7 @@ If you’re using a Java program that connects to a PostgreSQL database using JD
 ## 🙌 Contributing
 This is a personal learning repository, but feel free to fork it or suggest improvements via pull requests.
 ## ✨ Author
-[Muhayemariya Faustine](@faustine-van)
+[Muhayemariya Faustine](https://github.com/faustine-van)
 Learning Java, one project at a time ☕
 ## 📜 License
 This project is licensed under the [MIT License](https://github.com/faustine-van/java-projects?tab=License-1-ov-file).
