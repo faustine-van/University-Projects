@@ -52,4 +52,4 @@ This is a personal learning repository, but feel free to fork it or suggest impr
 Learning Java, one project at a time ☕
 ---
 ## 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/faustine-van/java-projects?tab=License-1-ov-file).
