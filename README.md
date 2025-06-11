@@ -41,8 +41,7 @@ If you’re using a Java program that connects to a PostgreSQL database using JD
 
 💡 If you are using Windows (cmd or PowerShell) instead of Linux/WSL, use a semicolon ; instead of a colon :
 
-```java -cp .;postgresql-42.6.0.jar PostgresConnect
-```
+```java -cp .;postgresql-42.6.0.jar PostgresConnect```
 ---
 ## 🙌 Contributing
 This is a personal learning repository, but feel free to fork it or suggest improvements via pull requests.
