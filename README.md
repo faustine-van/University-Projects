@@ -35,20 +35,20 @@ If you’re using a Java program that connects to a PostgreSQL database using JD
 1. Ensure you have the PostgreSQL JDBC driver file (e.g., `postgresql-42.6.0.jar`) in your project folder or system path.
 
 2. Compile the Java file with the JDBC driver:
-
-`javac -cp postgresql-42.6.0.jar PostgresConnect.java`
+    `javac -cp postgresql-42.6.0.jar PostgresConnect.java`
 3. Run the program:
-`java -cp .:postgresql-42.6.0.jar PostgresConnect`
+    ```java -cp .:postgresql-42.6.0.jar PostgresConnect```
 
 💡 If you are using Windows (cmd or PowerShell) instead of Linux/WSL, use a semicolon ; instead of a colon :
 
-`java -cp .;postgresql-42.6.0.jar PostgresConnect`
+```java -cp .;postgresql-42.6.0.jar PostgresConnect
+```
 ---
 ## 🙌 Contributing
 This is a personal learning repository, but feel free to fork it or suggest improvements via pull requests.
 --- 
 ## ✨ Author
-[Muhayemariya Faustine] – @faustine-van
+[Muhayemariya Faustine](@faustine-van)
 Learning Java, one project at a time ☕
 ---
 ## 📜 License
