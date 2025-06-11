@@ -27,7 +27,9 @@ Each folder inside this repository represents a different Java project or concep
     ```bash
     javac Main.java
     java Main
+
 ✅ Make sure you're in the correct directory and have Java installed (`java --version`).
+
 ---
 ### 🐘 How to Run the PostgresConnect (JDBC) Program
 (For more info check text file `postgresqljava`)
