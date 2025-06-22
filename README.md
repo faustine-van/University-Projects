@@ -1,53 +1,39 @@
-# Java Projects 🚀
+# University Projects 🎓
 
-Welcome to my collection of Java projects! This repository contains various Java programs and mini-projects I’ve worked on for practice, learning, and demonstration purposes.
+This repository contains a collection of academic and hands-on projects completed as part of my university coursework in Software Engineering. The projects span multiple modules and demonstrate key concepts in programming, databases, and software development.
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
-Each folder inside this repository represents a different Java project or concept. Examples include:
+University-Projects/
+├── Java-Projects/ # Object-oriented programming and data structures in Java
+├── PL-SQL-Scenarios/ # SQL & PL/SQL scenario-based problem solving
+└── README.md # You're here!
 
-- **OOPExamples/** – Demonstrates object-oriented programming (OOP) principles like inheritance, polymorphism, encapsulation, and abstraction.
-- **JDBCExample/** – Java programs using JDBC to connect with PostgreSQL databases.
-- **InnerClasses/** – Examples of inner, static, and anonymous inner classes.
-- **Miscellaneous/** – Standalone Java programs for learning different concepts.
+## 📌 Current Topics
 
-## 🛠️ Technologies Used
+- **Java Programming**: OOP principles, basic algorithms, and console-based applications.
+- **PL/SQL Development**: Realistic HR schema scenarios using SQL joins, loops, and transactions.
 
-- Java (JDK 8 or higher)
-- PostgreSQL (for JDBC database projects)
-- Git (for version control)
-- WSL (Ubuntu on Windows Subsystem for Linux) or any OS with Java support
+## 🚀 Goals
 
-## ⚙️ How to Run Java Programs
-### 🔹 For General Java Programs
+- Practice and master practical software engineering topics.
+- Apply theoretical concepts in real project-like environments.
+- Build a strong foundation for professional and freelance work.
 
-1. Navigate to the project folder:
-   `cd java-projects`
-2. Compile and Run the program:
-    ```bash
-    javac Main.java
-    java Main
+## 🛠 Tools & Technologies
 
-✅ Make sure you're in the correct directory and have Java installed (`java --version`).
+- Java (JDK 17+)
+- Oracle SQL Developer (PL/SQL)
+- Git & GitHub for version control
 
 ---
-### 🐘 How to Run the PostgresConnect (JDBC) Program
-(For more info check text file `postgresqljava`)
-If you’re using a Java program that connects to a PostgreSQL database using JDBC:
+🔄 This repository is actively maintained and will grow as I complete more modules and projects. Feel free to explore each folder to learn more!
 
-1. Ensure you have the PostgreSQL JDBC driver file (e.g., `postgresql-42.6.0.jar`) in your project folder or system path.
-
-2. Compile the Java file with the JDBC driver:
-    `javac -cp postgresql-42.6.0.jar PostgresConnect.java`
-3. Run the program:
-    ```java -cp .:postgresql-42.6.0.jar PostgresConnect```
-
-💡 If you are using Windows (cmd or PowerShell) instead of Linux/WSL, use a semicolon ; instead of a colon : 
-```java -cp .;postgresql-42.6.0.jar PostgresConnect```
 ## 🙌 Contributing
 This is a personal learning repository, but feel free to fork it or suggest improvements via pull requests.
 ## ✨ Author
 [Muhayemariya Faustine](https://github.com/faustine-van)
-Learning Java, one project at a time ☕
+_Software Engineer| Exploring real-world scenarios through code_  
 ## 📜 License
-This project is licensed under the [MIT License](https://github.com/faustine-van/java-projects?tab=License-1-ov-file).
+This project is licensed under the [MIT License](http://github.com/faustine-van/University-Projects?tab=License-1-ov-file).
+
