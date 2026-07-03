@@ -30,17 +30,6 @@ PL-SQL-Scenarios/
 └── README.md
 ```
 
-Q2_Employee_Manager_Lookup.sql
-Q3_Dept_Employee_Filter.sql
-Q4_Country_Region_Search.sql
-Q5_Job_History_Report.sql
-Q6_Previous_Job_Title.sql
-Q7_Top_5_Salary_Promotion.sql
-Q8_Update_Department_Name.sql
-Q9_Prefix_Senior_Title.sql
-Q10_Transaction_Workflow.sql
----
-
 ## Scenario Overviews
 
 Each `.sql` script is fully documented, features a runnable PL/SQL block, and tackles a distinct HR scenario:
