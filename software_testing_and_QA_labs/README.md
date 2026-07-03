@@ -7,7 +7,7 @@ This directory contains practical testing and quality assurance exercises comple
 These labs demonstrate real-world software testing practices including:
 - Unit testing with pytest
 - Test-driven development (TDD)
-- Code coverage analysis
+- Code coverage analysis (statement and branch coverage)
 - Automated testing frameworks
 - Quality assurance best practices
 
@@ -17,7 +17,7 @@ These labs demonstrate real-world software testing practices including:
 - pytest Framework and Fixtures
 - Test Cases and Assertions
 - Mocking and Patching
-- Code Coverage Analysis
+- Code Coverage Analysis (Statement & Branch Coverage)
 - Test-Driven Development (TDD)
 - Integration Testing
 - Performance Testing
@@ -75,12 +75,27 @@ pytest test_examples/test_sample.py
 # Run with code coverage
 pytest --cov=. --cov-report=html
 
+# Run with statement and branch coverage (advanced)
+pytest --cov=falco_refill test_falco.py --cov-branch --cov-report=term-missing
+
 # Run tests in parallel
 pytest -n auto
 
 # Run tests and show print statements
 pytest -s
 ```
+
+### Coverage Command Breakdown
+
+The advanced coverage command demonstrates comprehensive testing:
+```bash
+pytest --cov=falco_refill test_falco.py --cov-branch --cov-report=term-missing
+```
+
+- `--cov=falco_refill` - Measure coverage for the `falco_refill` module
+- `test_falco.py` - Run tests from this specific file
+- `--cov-branch` - Include branch coverage analysis (not just statement coverage)
+- `--cov-report=term-missing` - Display coverage report in terminal with missing lines highlighted
 
 ## Key Concepts Practiced
 
@@ -89,6 +104,8 @@ pytest -s
 - **Mocking**: Simulating external dependencies
 - **Parametrized Testing**: Testing multiple input scenarios
 - **Code Coverage**: Measuring test effectiveness
+- **Statement Coverage**: Percentage of code statements executed by tests
+- **Branch Coverage**: Percentage of conditional branches tested (if/else, loops, etc.)
 - **Test Organization**: Structuring tests for maintainability
 - **Edge Cases**: Testing boundary conditions
 - **Error Handling**: Testing exception scenarios
@@ -128,6 +145,7 @@ def test_double(input, expected):
 - Measure code quality with coverage metrics
 - Automate regression testing
 - Support continuous integration pipelines
+- Verify both success and failure paths in code
 
 ## Best Practices
 
@@ -139,13 +157,38 @@ def test_double(input, expected):
 - Use fixtures for reusable test setup
 - Test both success and failure scenarios
 - Keep tests fast and deterministic
+- Track both statement and branch coverage
+- Document test purposes and edge cases
+
+## Coverage Types
+
+### Statement Coverage
+- Measures the percentage of executable statements that are executed by tests
+- Ensures code lines are executed but doesn't verify all conditions
+- Good starting point for coverage analysis
+- **Learn more**: [Statement Coverage Testing - GeeksforGeeks](https://www.geeksforgeeks.org/software-testing/statement-coverage-testing/)
+
+### Branch Coverage
+- Measures the percentage of conditional branches (if/else, loops, switches) that are tested
+- More comprehensive than statement coverage
+- Ensures both true and false conditions are tested
+- Catches logic errors in conditional statements
+- **Learn more**: [Statement Coverage vs Branch Coverage - GraphApp](https://www.graphapp.ai/blog/statement-coverage-vs-branch-coverage-a-comprehensive-comparison)
 
 ## Resources
 
+### Testing Frameworks & Tools
 - [pytest Documentation](https://docs.pytest.org/)
 - [Python unittest Documentation](https://docs.python.org/3/library/unittest.html)
 - [Code Coverage Measurement](https://coverage.readthedocs.io/)
+
+### Coverage Analysis
+- [Statement Coverage vs Branch Coverage - Comprehensive Comparison](https://www.graphapp.ai/blog/statement-coverage-vs-branch-coverage-a-comprehensive-comparison)
+- [Statement Coverage Testing - GeeksforGeeks](https://www.geeksforgeeks.org/software-testing/statement-coverage-testing/)
+
+### Development Methodologies
 - [Test-Driven Development Guide](https://en.wikipedia.org/wiki/Test-driven_development)
+- [Software Testing Best Practices](https://www.geeksforgeeks.org/software-testing/)
 
 ---
 
