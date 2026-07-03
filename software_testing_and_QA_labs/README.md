@@ -198,6 +198,16 @@ def test_double(input, expected):
 
 ---
 
+## Credits & Acknowledgments
+
+These labs were designed and prepared by:
+
+**[Yves Himbaza](https://rw.linkedin.com/in/yves-himbaza-m-240957154)** - Course Instructor
+
+Special thanks to my lecturer for creating comprehensive, real-world testing scenarios and guidance on best practices in software quality assurance.
+
+---
+
 ## Author
 
 **[Muhayemariya Faustine](https://github.com/faustine-van)**
