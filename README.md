@@ -4,12 +4,10 @@ This repository contains a collection of academic and hands-on projects complete
 
 ## Repository Structure
 
-```
-University-Projects/
-├── Java-Projects/         # Object-oriented programming and data structures in Java
-├── PL-SQL-Scenarios/      # SQL & PL/SQL scenario-based problem solving
-└── README.md              # You're here!
-```
+| Directory | Description |
+|-----------|-------------|
+| `Java-Projects/` | Object-oriented programming projects, data structures, and console-based applications |
+| `PL-SQL-Scenarios/` | SQL & PL/SQL scenario-based exercises using the Oracle HR sample schema |
 
 ## Current Topics
 
