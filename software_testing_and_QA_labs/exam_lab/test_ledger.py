@@ -29,5 +29,3 @@ def test_ledger_final_payout_():
     assert result["status"] == "APPROVED"  
     assert result["new_balance"] == 9000
     assert result["payout_disbursed"] == 1100
-
-
