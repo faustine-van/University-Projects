@@ -6,8 +6,9 @@ This repository contains a collection of academic and hands-on projects complete
 
 | Directory | Description |
 |-----------|-------------|
-| `Java-Projects/` | Object-oriented programming projects, data structures, and console-based applications |
-| `PL-SQL-Scenarios/` | SQL & PL/SQL scenario-based exercises using the Oracle HR sample schema |
+| `java-oop-projects/` | Object-oriented programming projects, data structures, and console-based applications |
+| `swing-jdbc-cat-projects/` | Java Swing and JDBC projects with MySQL: calendar, banking loan, scientific calculator, student transcript with PDF export, and grade report |
+| `pl-sql-scenarios/` | SQL & PL/SQL scenario-based exercises using the Oracle HR sample schema |
 | `software_testing_and_QA_labs/` | Python-based testing labs with pytest, unit testing, and quality assurance practices |
 
 ## Current Topics
@@ -56,7 +57,7 @@ This repository is actively maintained and will grow as I complete more modules 
 
 ### For Java Projects
 ```bash
-cd Java-Projects/
+cd cd java-oop-projects/
 javac FileName.java
 java FileName
 ```
@@ -72,10 +73,14 @@ pytest
 
 ### For PL/SQL Scenarios
 ```bash
-cd PL-SQL-Scenarios/
+cd pl-sql-scenarios/
 # Run in Oracle SQL Developer or sqlplus
 @Q1_Manager_Report.sql
 ```
+
+### For Swing and JDBC Projects
+
+Needs MySQL and two libraries. See [swing-jdbc-cat-projects/README.md](swing-jdbc-cat-projects/README.md) for the setup.
 
 ## Contributing
 
