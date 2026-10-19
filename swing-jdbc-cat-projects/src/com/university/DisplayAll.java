@@ -8,7 +8,7 @@ public class DisplayAll {
 	    public static void main(String[] args) {
 	        String url = "jdbc:mysql://localhost:3307/university";
 	        String user = "root";
-	        String password = "";
+	        String password = "your_password";
 	        try {
 	            
 	            Connection conn = DriverManager.getConnection(

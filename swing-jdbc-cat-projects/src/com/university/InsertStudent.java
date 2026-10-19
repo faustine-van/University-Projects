@@ -11,7 +11,7 @@ public class InsertStudent {
 
         String url = "jdbc:mysql://localhost:3307/university";
         String user = "root";
-        String password = "";
+        String password = "your_password";
 
         try {
             // Establish database connection
